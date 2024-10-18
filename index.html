@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0GB7QY3KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D0GB7QY3KK');
+</script>
+    
+    <meta name="google-site-verification" content="x0ujuomZfAJE5e6v1M2LrMQoRgqSwY4j_s-BEa9BBik" />
+    <title>LIC Maturity Calculator 2024 - Calculate Your Lic Policy Maturity Amout</title>
+    <meta name="description" content="Use our LIC Maturity Calculator to estimate your Lic insurance maturity amount easily. Get accurate results based on sum assured, policy term, and more. Perfect for LIC policyholders!">
+    <meta name="keywords" content="LIC Maturity Calculator, lic maturity amount calculator online, calculate LIC maturity, LIC policies, sum assured, policy term">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://licmaturitycalculators.github.io/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0044cc; /* Blue color for the heading */
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0044cc; /* Blue color for labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffcc00; /* Yellow border for inputs */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="number"]:focus {
+    border-color: #0044cc; /* Blue border on focus */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background-color: #0044cc; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Yellow background on hover */
+    color: #0044cc; /* Blue text on hover */
+}
+
+/* Result Styling */
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0044cc; /* Blue color for result text */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .calculator {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    input[type="number"] {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* Styling for the navigation bar */
+.custom-navbar {
+    background-color: #00008B; /* Blue background */
+    padding: 10px;
+    margin-top: 0px;  /* Adds space above the nav */
+    margin-bottom: 40px;  /* Adds space below the nav */
+    border-radius: 8px; /* Adds rounded corners */
+}
+
+/* Styling for the brand (logo and text) */
+.custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #FFEA00; /* Yellow text for the brand */
+    text-decoration: none;
+}
+
+/* Styling for the brand text */
+.brand-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow text */
+}
+
+/* Add hover effect for the brand */
+.custom-navbar .navbar-brand:hover {
+    color: #fff; /* White text on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .brand-text {
+        font-size: 18px; /* Slightly smaller text on mobile */
+    }
+
+    .custom-navbar {
+        padding: 10px; /* Less padding on mobile */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+</style>
+  </head>
+  <body>
+<nav class="navbar navbar-light custom-navbar">
+  <a class="navbar-brand" href="#">
+    <img src="https://raw.githubusercontent.com/LicMaturityCalculator/licmaturitycalculator.github.io/refs/heads/main/cropped-LIC_Maturity_Calculator__1_-removebg-preview.png" width="60" height="30" class="d-inline-block align-top" alt="">
+    <span class="brand-text">LIC Maturity Calculator</span>
+  </a>
+</nav>
+    <div class="calculator">
+    <h1>LIC Maturity Calculator</h1>
+    <div class="form-group">
+        <label for="sumAssured">Sum Assured:</label>
+        <input type="number" id="sumAssured" placeholder="Enter Sum Assured">
+    </div>
+    <div class="form-group">
+        <label for="policyTerm">Policy Term (Years):</label>
+        <input type="number" id="policyTerm" placeholder="Enter Policy Term">
+    </div>
+    <div class="form-group">
+        <label for="annualPremium">Annual Premium:</label>
+        <input type="number" id="annualPremium" placeholder="Enter Annual Premium">
+    </div>
+    <div class="form-group">
+        <label for="bonusRate">Bonus Rate (% per 1000):</label>
+        <input type="number" id="bonusRate" placeholder="Enter Bonus Rate">
+    </div>
+    <button onclick="calculateMaturity()">Calculate Maturity Amount</button>
+    <div id="result"></div>
+</div>
+
+<h1><b>LIC Maturity Calculator: Simplifying Your Insurance Planning</b></h1>
+
+<p>lic maturity calculator is online tool to calculate your lic policy maturity amount</p>
+
+
+
+<script>
+function calculateMaturity() {
+    const sumAssured = parseFloat(document.getElementById('sumAssured').value);
+    const policyTerm = parseFloat(document.getElementById('policyTerm').value);
+    const annualPremium = parseFloat(document.getElementById('annualPremium').value);
+    const bonusRate = parseFloat(document.getElementById('bonusRate').value);
+
+    if (isNaN(sumAssured) || isNaN(policyTerm) || isNaN(annualPremium) || isNaN(bonusRate)) {
+        document.getElementById('result').innerText = "Please enter valid inputs.";
+        return;
+    }
+
+    // Calculate the bonus amount
+    const bonusAmount = (sumAssured * (bonusRate / 1000)) * policyTerm;
+
+    // Calculate the total premium paid
+    const totalPremiumPaid = annualPremium * policyTerm;
+
+    // Calculate the maturity amount
+    const maturityAmount = sumAssured + bonusAmount + totalPremiumPaid;
+
+    document.getElementById('result').innerText = `Maturity Amount: ₹${maturityAmount.toFixed(2)}`;
+}
+</script>
+<footer class="bg-body-tertiary text-center text-lg-start">
+  <!-- Links Section -->
+  <div class="p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+      <li style="display: inline-block; margin: 0 15px;">
+        <a href="/about-us" class="text-body">About Us</a>
+      </li>
+      <li style="display: inline-block; margin: 0 15px;">
+        <a href="/contact-us" class="text-body">Contact Us</a>
+      </li>
+      <li style="display: inline-block; margin: 0 15px;">
+        <a href="#" class="text-body">Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-body" href="https://licmaturitycalculator.com/">licmaturitycalculator.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+  </body>
+</html>
